@@ -1,23 +1,11 @@
-import React, { fragment } from 'react';
-import Footer from './Footer';
-import Form from './Form/Form';
-import Header from './header';
-const Teste = () => {
-  const active = false;
-  if (active) {
-    return <p>Teste</p>;
-  } else {
-    return null;
-  }
-};
+import React from 'react';
+import FormProps from './FormProps/FormProps';
+
 const App = () => {
   return (
-    <React.Fragment>
-      <Teste />
-      <Header />
-      <Form />
-      <Footer />
-    </React.Fragment>
+    <div>
+      <FormProps />
+    </div>
   );
 };
 
